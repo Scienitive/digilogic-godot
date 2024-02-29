@@ -1,0 +1,7 @@
+To compile the C++ nodes that you wrote you use "scons platofrm=<platform>" on the home dir.
+
+To get the compile_commands.json you use "cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON" on godot-cpp dir.
+
+Also, after making a new node class in C++ to use it on Godot you need to add it to the "register_types.cpp" or something like that.
+
+More information on: https://docs.godotengine.org/en/stable/tutorials/scripting/gdextension/gdextension_cpp_example.html
